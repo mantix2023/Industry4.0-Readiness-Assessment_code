@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <script src="./index.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("t4RCLZPccTHkpj4CJ");
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <!-- <div class="col-md-6 p-5 bg-primary text-white">
+                <h4>Hi there!</h4>
+                <h1>
+                    Mantix,
+                </h1>
+            </div> -->
+            <div id="Cform" class="col-md-6 py-3" style="background-color: #e3e3da;">
+                <h1 style="color: #045F5F;">Contact form</h1>
+                <!-- <form onsubmit="return validateForm()"> -->
+                    <div class="form-group">
+                        <h5 for="name">Name*</h5>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name" required />
+                    </div>
+                    <div class="form-group">
+                        <h5 for="email">Email*</h5>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" required />
+                    </div>
+                    <div class="form-group">
+                        <h5 for="phone">Phone Number*</h5>
+                        <input type="tel" class="form-control" id="tel" placeholder="Enter phone number (10 digits)" required pattern="[0-9]{10}"/>
+                    </div>
+                    <div class="form-group">
+                        <h5 for="designation">Designation*</h5>
+                        <input type="text" class="form-control" id="designation" placeholder="Enter designation" required />
+                    </div>
+                    <div class="form-group">
+                        <h5 for="companyName">Company Name*</h5>
+                        <input type="text" class="form-control" id="companyName" placeholder="Enter Company Name" required />
+                    </div>
+                    <div class="form-group">
+                        <h5 for="feedback">Feedback*</h5>
+                        <textarea class="form-control" id="feedback" rows="3" required></textarea>
+                    </div>
+                    <!-- <button class="btn btn-primary" onclick="sendMail()">Submit</button> -->
+                    <form action="/submit" method="POST">
+                        <button class="btn btn-primary" onclick="sendMail()" id="submit" type="submit" style="position: relative; left: 5px; top: 5px; width: 40%; background-color: #064420; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;;margin-bottom:15px;">Download PDF</button>
+                    </form>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    // function validateForm() {
+    // // Get references to all required form elements
+    // const name = document.getElementById('name');
+    // const email = document.getElementById('email');
+    // const phone = document.getElementById('tel');
+    // const designation = document.getElementById('designation');
+    // const companyName = document.getElementById('companyName');
+    // const feedback = document.getElementById('feedback');
+    
+    // // Check if all required fields are filled
+    // if (name.value === '' || email.value === '' || phone.value === '' || designation.value === '' || companyName.value === '' || feedback.value === '') {
+    //     alert('Please fill in all required fields');
+    //     return false;
+    // }
+    
+    // // If all required fields are filled, allow form submission
+    // return true;
+    // }
+
+
+    function sendMail() {
+    // if (!validateForm()) {
+    //     return false;
+    // }
+    var params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        tel: document.getElementById("tel").value,
+        designation: document.getElementById("designation").value,
+        companyName: document.getElementById("companyName").value,
+        feedback: document.getElementById("feedback").value,
+    };
+
+    const serviceID = "service_p5r3orl";
+    const templateID = "template_530fjak";
+
+    emailjs.send(serviceID, templateID, params)
+        .then(res => {
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("tel").value = "";
+            document.getElementById("designation").value = "";
+            document.getElementById("companyName").value = "";
+            document.getElementById("feedback").value = "";
+            console.log(res);
+            alert("Your message sent successfully!!")
+
+        })
+        .catch(err => console.log(err));
+    // return true;
+} 
+</script>
+</html>
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        [if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]
+        
+        <script src="" async defer></script>
+        <form action="mailto:varshinichowdary939@gmail.com" method="post" enctype="text/plain">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br>
+          
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone"><br>
+          
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email"><br>
+          
+            <input type="submit" value="Submit" onclick="window.location.replace('page11.html')">
+          </form>
+
+          <form action="/submit" method="POST">
+            <button id="submit" type="submit" style="position: relative; left: 25px; top: 15px; width: 20%; background-color: #064420; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;;margin-bottom: -105px;">Download PDF</button>
+        </form>
+    </body>
+</html> -->

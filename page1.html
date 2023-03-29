@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <style>
+      .center {
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: flex-start; */
+        /* flex-direction: column; */
+        height: 100vh;
+        /* background-image: url('/images/Background_img1.jpg'); */
+        /* background-size: cover; */
+        background-repeat: no-repeat;
+        /* border: 1px solid red; */
+      }
+      button {
+        display: block;
+        margin: 50vh auto 0;
+        padding: 20px 40px;
+        font-size: 30px;
+        font-family: Arial, sans-serif;
+        background-color: #F0EEED;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        float: right;
+      }
+          button:hover {
+        background-color: #F6F7C1;
+        box-shadow: 2px 2px 8px #000000;
+      }
+      h1 {
+        font-size: 80px;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        text-align: center;
+        /* border: 1px solid red; */
+      }
+      #btn_txt{
+        /* border: 1px solid red; */
+        height: 400px;
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+      }
+      #btn_ass{
+        /* border: 1px solid red; */
+        margin-top: 150px;
+        margin-left: 100px;
+      }
+      #i40{
+        /* border: 1px solid red; */
+        transform: translateY(100px);
+      }
+
+      @media only screen and (min-width: 375px) and (max-width: 667px) {
+        #text_txt{
+          font-size: 35px !important;
+        }
+      }
+
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        #btn{
+          /* border: 1px solid red; */
+          margin-top: 800px;
+          margin-left: -1000px;
+          width: 800px;
+          height: 400px;
+        }
+        #text{
+          /* border: 1px solid red; */
+          margin-top: 150px;
+          width: 1000px !important;
+          font-size: 25px !important;
+        }
+        #i40{
+          font-size: 65px;
+        }
+
+
+      }
+
+    </style>
+
+
+  </head>
+  <body style="background-image: url('/images/Background_img1.jpg');">
+    <div class="center">
+      <h1 id="i40" style="align-self: center;">Industry4.0 Readiness Assessment</h1>
+      <div id="btn_txt">
+        <div style="color: rgb(233, 211, 155); text-align: left; float: left; width: 50%; font-size: 20px;" id="text">
+          <ul>
+            <h2>What is Industry 4.0?</h2>
+            <li id="text_txt">The term Industry 4 originates from the high-tech strategy of the German government, which sought to re-define the role of manufacturing post the global economic crisis. It suggests that we are on the cusp of the 4th Industrial Revolution, a cyber physical age, which will be realized over the next 20 years.  It is an age in which materials and machines are inter-connected within the internet of things (IoT), where everyday objects have network connectivity, allowing them to send and receive data. This will enable highly flexible, individualized and resource friendly mass production. It is driven by a requirement for shorter time to market, increased flexibility and greater asset efficiency.</li>
+            <li>More fundamentally it will create new business models that will drive both evolutionary and revolutionary changes to the way in which we do business today.</li>
+          </ul>
+        </div>
+        <div id="btn">
+          <button id="btn_ass" onclick="location.href='page4.html'" style="font-size: 30px; box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;">Click here to take the Assesment</button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</html>

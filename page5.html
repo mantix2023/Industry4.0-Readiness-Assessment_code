@@ -1,0 +1,1828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/form.css">
+    <!-- <script type="text/javascript" src="storage.js"></script> -->
+    <style>
+        .main_div{
+            /* border: 1px solid yellow; */
+            transform: translateY(170px);
+        }
+        #one12 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-301px);
+            margin-left: 255px;
+        }
+        #two12 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-337px);
+            margin-left: 263px;
+        }
+        #three12 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-375px);
+            margin-left: 271px;
+        }
+        #four12 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-413px);
+            margin-left: 278px;
+        }
+
+        #one22 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-307px);
+            margin-left: 296px;
+        }
+        #two22 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-334px);
+            margin-left: 319px;
+        }
+        #three22 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-361px);
+            margin-left: 339px;
+        }
+        #four22 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-388px);
+            margin-left: 359px;
+        }
+
+        #one32 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-292px);
+            margin-left: 312px;
+        }
+        #two32 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-303px);
+            margin-left: 341px;
+        }
+        #three32 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-314px);
+            margin-left: 364px;
+        }
+        #four32 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-324px);
+            margin-left: 391px;
+        }
+
+        #one42 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-275px);
+            margin-left: 297px;
+        }
+        #two42 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-272px);
+            margin-left: 319px;
+        }
+        #three42 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-267px);
+            margin-left: 339px;
+        }
+        #four42 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-258px);
+            margin-left: 360px;
+        }
+
+        #one52 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-280px);
+            margin-left: 254px;
+        }
+        #two52 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-267px);
+            margin-left: 262px;
+        }
+        #three52 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-252px);
+            margin-left: 271px;
+        }
+        #four52 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-232px);
+            margin-left: 279px;
+        }
+
+        #one62 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-320px);
+            margin-left: 200px;
+        }
+        #two62 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-307px);
+            margin-left: 193px;
+        }
+        #three62 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-291px);
+            margin-left: 184px;
+        }
+        #four62 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-272px);
+            margin-left: 174px;
+        }
+
+        #one72 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-395px);
+            margin-left: 159px;
+        }
+        #two72 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-390px);
+            margin-left: 137px;
+        }
+        #three72 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-386px);
+            margin-left: 115px;
+        }
+        #four72 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-377px);
+            margin-left: 93px;
+        }
+
+        #one82 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-491px);
+            margin-left: 143px;
+        }
+        #two82 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-503px);
+            margin-left: 115px;
+        }
+        #three82 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-513px);
+            margin-left: 89px;
+        }
+        #four82 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-523px);
+            margin-left: 62px;
+        }
+
+        #one92 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-587px);
+            margin-left: 159px;
+        }
+        #two92 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-613px);
+            margin-left: 136px;
+        }
+        #three92 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-642px);
+            margin-left: 115px;
+        }
+        #four92 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-668px);
+            margin-left: 94px;
+        }
+
+        #one102 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-661px);
+            margin-left: 201px;
+        }
+        #two102 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-697px);
+            margin-left: 192px;
+        }
+        #three102 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-736px);
+            margin-left: 184px;
+        }
+        #four102 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-774px);
+            margin-left: 175px;
+        }
+
+
+        @media only screen and (min-width: 375px) and (max-width: 667px) {
+            #img2 {
+                transform: translateY(1155px);
+                margin-left: -350px;
+                width: 380px;
+            }
+            #btn_next {
+                width: 350px;
+
+            }
+            #one12 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(907px);
+                margin-left: -143px;
+            }
+            #two12 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(876px);
+                margin-left: -136px;
+            }
+            #three12 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(843px);
+                margin-left: -130px;
+            }
+            #four12 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(810px);
+                margin-left: -123px;
+            }
+
+            #one22 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(895px);
+                margin-left: -109px;
+            }
+            #two22 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(872px);
+                margin-left: -90px;
+            }
+            #three22 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(848px);
+                margin-left: -74px;
+            }
+            #four22 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(822px);
+                margin-left: -57px;
+            }
+
+            #one32 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(900px);
+                margin-left: -95px;
+            }
+            #two32 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(889px);
+                margin-left: -73px;
+            }
+            #three32 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(879px);
+                margin-left: -53px;
+            }
+            #four32 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(869px);
+                margin-left: -31px;
+            }
+
+            #one42 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(906px);
+                margin-left: -108px;
+            }
+            #two42 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(907px);
+                margin-left: -90px;
+            }
+            #three42 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(908px);
+                margin-left: -73px;
+            }
+            #four42 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(914px);
+                margin-left: -56px;
+            }
+
+            #one52 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(894px);
+                margin-left: -141px;
+            }
+            #two52 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(903px);
+                margin-left: -136px;
+            }
+            #three52 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(914px);
+                margin-left: -130px;
+            }
+            #four52 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(929px);
+                margin-left: -124px;
+            }
+
+            #one62 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(855px);
+                margin-left: -187px;
+            }
+            #two62 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(864px);
+                margin-left: -192px;
+            }
+            #three62 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(874px);
+                margin-left: -201px;
+            }
+            #four62 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(889px);
+                margin-left: -207px;
+            }
+
+            #one72 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(788px);
+                margin-left: -221px;
+            }
+            #two72 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(787px);
+                margin-left: -240px;
+            }
+            #three72 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(789px);
+                margin-left: -258px;
+            }
+            #four72 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(796px);
+                margin-left: -274px;
+            }
+
+            #one82 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(702px);
+                margin-left: -234px;
+            }
+            #two82 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(690px);
+                margin-left: -257px;
+            }
+            #three82 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(679px);
+                margin-left: -278px;
+            }
+            #four82 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(669px);
+                margin-left: -300px;
+            }
+
+            #one92 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(615px);
+                margin-left: -221px;
+            }
+            #two92 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(591px);
+                margin-left: -239px;
+            }
+            #three92 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(567px);
+                margin-left: -257px;
+            }
+            #four92 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(544px);
+                margin-left: -275px;
+            }
+
+            #one102 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(546px);
+                margin-left: -186px;
+            }
+            #two102 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(515px);
+                margin-left: -193px;
+            }
+            #three102 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(483px);
+                margin-left: -201px;
+            }
+            #four102 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(450px);
+                margin-left: -209px;
+            }
+            #f1,#f2, #f3, #f4, #f5, #f6, #f7, #f8, #f9, #f10, #footer {
+                display: none;
+            }
+            #btn_back{
+                /* border: 1px solid red !important; */
+                width: 150px !important;
+                height: 70px;
+                font-size: 45px !important;
+                margin-left: -10px;
+
+            }
+            .form4{
+                /* border: 1px solid red; */
+                width: 1267px;
+                font-size: 35px;
+
+            }
+            .main_div{
+                transform: translateY(1800px);
+                margin-left: 500px !important;
+
+            }
+            #download{
+                /* border: 1px solid red !important; */
+                width: 300px !important;
+                height: 100px;
+                font-size: 45px;
+                margin-left: -30px;
+            }
+            .logo_man{
+                /* border: 1px solid red; */
+                width: 1100px;
+                margin-left: -400px;
+                height: 80px;
+                margin-top: 100px;
+
+            }
+            #h{
+                /* border: 1px solid red; */
+                width: 1307px !important;
+                margin-left: -1px !important;
+            }
+            #h > h2{
+                font-size: 65px !important;
+                margin-left: 300px !important;
+            }
+        }
+
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            #img2 {
+                transform: translateY(1150px);
+                margin-left: -525px;
+                width: 400px;
+            }
+            #btn_next {
+                width: 450px;
+            }
+            #one12 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(889px);
+                margin-left: -306px;
+            }
+            #two12 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(857px);
+                margin-left: -298px;
+            }
+            #three12 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(823px);
+                margin-left: -292px;
+            }
+            #four12 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(789px);
+                margin-left: -285px;
+            }
+
+            #one22 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(879px);
+                margin-left: -270px;
+            }
+            #two22 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(856px);
+                margin-left: -250px;
+            }
+            #three22 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(831px);
+                margin-left: -233px;
+            }
+            #four22 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(806px);
+                margin-left: -215px;
+            }
+
+            #one32 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(887px);
+                margin-left: -257px;
+            }
+            #two32 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(875px);
+                margin-left: -232px;
+            }
+            #three32 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(866px);
+                margin-left: -212px;
+            }
+            #four32 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(856px);
+                margin-left: -189px;
+            }
+
+            #one42 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(893px);
+                margin-left: -268px;
+            }
+            #two42 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(895px);
+                margin-left: -250px;
+            }
+            #three42 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(899px);
+                margin-left: -234px;
+            }
+            #four42 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(905px);
+                margin-left: -215px;
+            }
+
+            #one52 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(885px);
+                margin-left: -305px;
+            }
+            #two52 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(894px);
+                margin-left: -299px;
+            }
+            #three52 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(906px);
+                margin-left: -292px;
+            }
+            #four52 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(923px);
+                margin-left: -286px;
+            }
+
+            #one62 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(846px);
+                margin-left: -352px;
+            }
+            #two62 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(855px);
+                margin-left: -359px;
+            }
+            #three62 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(867px);
+                margin-left: -367px;
+            }
+            #four62 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(882px);
+                margin-left: -375px;
+            }
+
+            #one72 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(777px);
+                margin-left: -388px;
+            }
+            #two72 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(777px);
+                margin-left: -408px;
+            }
+            #three72 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(780px);
+                margin-left: -427px;
+            }
+            #four72 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(788px);
+                margin-left: -444px;
+            }
+
+            #one82 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(688px);
+                margin-left: -403px;
+            }
+            #two82 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(676px);
+                margin-left: -427px;
+            }
+            #three82 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(665px);
+                margin-left: -449px;
+            }
+            #four82 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(657px);
+                margin-left: -471px;
+            }
+
+            #one92 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(598px);
+                margin-left: -388px;
+            }
+            #two92 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(574px);
+                margin-left: -408px;
+            }
+            #three92 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(550px);
+                margin-left: -428px;
+            }
+            #four92 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(525px);
+                margin-left: -445px;
+            }
+
+            #one102 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(529px);
+                margin-left: -353px;
+            }
+            #two102 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(497px);
+                margin-left: -360px;
+            }
+            #three102 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(463px);
+                margin-left: -368px;
+            }
+            #four102 {
+                /* border: 1px solid red; */
+                /* background-color: aquamarine; */
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                transform: translateY(429px);
+                margin-left: -375px;
+            }
+            #f1,#f2, #f3, #f4, #f5, #f6, #f7, #f8, #f9, #f10, #footer {
+                display: none;
+                
+            }
+            #btn_back {
+                /* border: 1px solid red !important; */
+                width: 130px !important;
+                height: 50px;
+                font-size: 25px !important;
+                margin-left: -10px;
+            }
+            #h{
+                /* border: 1px solid red; */
+                width: 961px !important;
+                margin-left: 0px !important;
+            }
+            #h > h2{
+                font-size: 38px !important;
+                margin-left: 300px !important;
+            }
+            #download{
+                /* border: 1px solid red !important; */
+                width: 150px !important;
+                height: 70px;
+                font-size: 35px;
+                margin-left: -30px;
+                margin-bottom: 80px;
+            }
+            .form4{
+                /* border: 1px solid red; */
+                width: 920px;
+                font-size: 25px;
+            }
+            form4::-webkit-scrollbar{
+                width: 1em;
+            }
+            .main_div{
+                transform: translateX(1100px);
+                margin-top: -100px !important;
+
+            }
+            .logo_man{
+                /* border: 1px solid red; */
+                width: 1300px;
+                margin-left: -100px;
+                height: 70px;
+                /* margin-top: 20px; */
+
+            }
+        }
+    </style>
+    
+
+    
+</head>
+<body style="background-color: #FFFFEA">
+
+       <!-- <div style = 'margin-bottom:40px;'>
+            <input type="button" value="Back" class="back-button" onclick="window.location.href='page4.html'">
+       </div> -->
+       <div>
+        <button id="btn_back" onclick="window.location.replace('page4.html')" type="submit" style="position: absolute; font-size: 15px; top: 10px; left: 15px; width: 6%; background-color: #064420;color:#FFFFEA; padding: 10px; border: none; border-radius: 5px; cursor: pointer;box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;">Back</button>
+      </div>
+
+       <div id="my-di" class="flex-container" >
+        
+        <div style="display:inline-block;width:49%"class="flex-child">
+            <header style="width: 50px;margin-left:800px;align-items: center; display: flex;justify-content: space-around">
+                <!-- <h1 style="color:#0070c0;">MANTIX DIGITAL</h1> -->
+                <img class="logo_man" height= "50px" src="/images/logo.png" alt="logo">
+            </header>
+            <div id="h" style="transform: translateY(40px); background-color:#045F5F ; width: 692px;margin-left: 26px;">
+                <h2 style="display:inline-block;width:auto;margin-left: 170px;font-size: 32px;font-style: oblique;font: bolder;color: beige;">Manufacturing and Operations</h2>
+            </div>
+
+            <form class="form4" style="transform: translateY(40px); background-color:#045F5F ;color: beige;" id="Automation">
+                <fieldset>
+                    <legend>1. Automation</legend>
+                    <label onclick="q112()"><input type="radio" name="Automation" value="1"> Few machines can be controlled through automation</label><br>
+                    <label onclick="q212()"><input type="radio" name="Automation" value="2"> Some machines and system infrastructures can be controlled through automation</label><br>
+                    <label onclick="q312()"><input type="radio" name="Automation" value="3"> Most machines and system infrastructures can be controlled through automation</label><br>
+                    <label onclick="q412()"><input type="radio" name="Automation" value="4"> Machines and systems can be controlled completely through automation</label><br>
+                </fieldset>
+                
+            </form>
+            
+            <form class="form4" style="transform: translateY(40px); background-color:#045F5F ;color: beige;" id="M2M">
+                <fieldset >
+                    <legend>2. Machine and operation system integration (M2M)</legend>
+                    <label onclick="q122()"><input type="radio" name="M2M" value="1"> Machines and systems have no M2M capability</label><br>
+                    <label onclick="q222()"><input type="radio" name="M2M" value="2"> Machines and systems are to some extent interoperable</label><br>
+                    <label onclick="q322()"><input type="radio" name="M2M" value="3"> Machines and systems are partially integrated</label><br>
+                    <label onclick="q422()"><input type="radio" name="M2M" value="4"> Machines and systems are fully integrated</label><br>
+                </fieldset>
+                
+            </form>
+            
+            <form class="form4" style="transform: translateY(40px); background-color:#045F5F ;color: beige;" id="readiness">
+                <fieldset >
+                    <legend>3. Equipment readiness for Industry 4</legend>
+                    <label onclick="q132()"><input type="radio" name="readiness" value="1"> Significant overhaul required to meet Industry 4 model</label><br>
+                    <label onclick="q232()"><input type="radio" name="readiness" value="2"> Some machines and systems can be upgraded</label><br>
+                    <label onclick="q332()"><input type="radio" name="readiness" value="3"> Machines already meet some of the requirements and can be upgraded where required</label><br>
+                    <label onclick="q432()"><input type="radio" name="readiness" value="4"> Machines and systems already meet all future requirements</label><br>
+                </fieldset>
+                
+            </form>
+    
+            <form class="form4" style="transform: translateY(40px); background-color:#045F5F ;color: beige;" id="Autonomous">
+                <fieldset >
+                    <legend>4. Autonomously guided workpieces</legend>
+                    <label onclick="q142()"><input type="radio" name="Autonomous" value="1"> Autonomously guided workpieces are not in use</label><br>
+                    <label onclick="q242()"><input type="radio" name="Autonomous" value="2"> Autonomously guided workpieces are not in use, but there are pilots underway</label><br>
+                    <label onclick="q342()"><input type="radio" name="Autonomous" value="3"> Autonomously guided workpieces used in selected areas</label><br>
+                    <label onclick="q442()"><input type="radio" name="Autonomous" value="4"> Machines and systems are fully integrated</label><br>
+                </fieldset>
+            </form>
+            
+            <form class="form4" style="transform: translateY(40px); background-color:#045F5F ;color: beige;" id="Self_optimising">
+                <fieldset >
+                    <legend>5. Self-optimisingprocesses</legend>
+                    <label onclick="q152()"><input type="radio" name="Self_optimising" value="1"> Self-optimisation processes are not in use</label><br>
+                    <label onclick="q252()"><input type="radio" name="Self_optimising" value="2"> Self-optimising processes are not in use, but there are pilots in more advanced areas of the business</label><br>
+                    <label onclick="q352()"><input type="radio" name="Self_optimising" value="3"> Self-optimising processes are used in selected areas</label><br>
+                    <label onclick="q452()"><input type="radio" name="Self_optimising" value="4"> Self-optimising processes are widely used</label><br>
+                </fieldset>
+            </form> 
+
+            <form class="form4" style="transform: translateY(40px); background-color:#045F5F ;color: beige;" id="Modelling">
+              <fieldset >
+                  <legend>6. Digital modelling</legend>
+                  <label onclick="q162()"><input type="radio" name="Modelling" value="1"> No digital modelling</label><br>
+                  <label onclick="q262()"><input type="radio" name="Modelling" value="2"> Some processes use digital modelling</label><br>
+                  <label onclick="q362()"><input type="radio" name="Modelling" value="3"> Most processes use digital modelling</label><br>
+                  <label onclick="q462()"><input type="radio" name="Modelling" value="4"> Complete digital modelling used for all relevant processes</label><br>
+              </fieldset>
+          </form>
+
+          <form class="form4" style="transform: translateY(40px); background-color:#045F5F ;color: beige;" id="Collection">
+            <fieldset >
+                <legend>7. Operations data collection</legend>
+                <label onclick="q172()"><input type="radio" name="Collection" value="1"> Data is collected manually when required, e.g. sampling for quality control</label><br>
+                <label onclick="q272()"><input type="radio" name="Collection" value="2"> Required data is collected digitally in certain areas</label><br>
+                <label onclick="q372()"><input type="radio" name="Collection" value="3"> Comprehensive digital data collection in multiple areas</label><br>
+                <label onclick="q472()"><input type="radio" name="Collection" value="4"> Comprehensive automated digital data collection across the entire process</label><br>
+            </fieldset>
+        </form>
+
+        <form class="form4" style="transform: translateY(40px); background-color:#045F5F ;color: beige;" id="Op_data_usage">
+          <fieldset >
+              <legend>8. Operations data usage</legend>
+              <label onclick="q182()"><input type="radio" name="Op_data_usage" value="1"> Data is only used for quality and regulatory purposes</label><br>
+              <label onclick="q282()"><input type="radio" name="Op_data_usage" value="2"> Some data is used to control processes</label><br>
+              <label onclick="q382()"><input type="radio" name="Op_data_usage" value="3"> Some data is used to control and optimise processes, e.g. predictive maintenance</label><br>
+              <label onclick="q482()"><input type="radio" name="Op_data_usage" value="4"> All data is used not only to optimise processes, but also for decision making</label><br>
+          </fieldset>
+      </form>
+
+      <form class="form4" style="transform: translateY(40px); background-color:#045F5F ;color: beige;" id="Solution_usage">
+        <fieldset >
+            <legend>9. Cloud solution usage</legend>
+            <label onclick="q192()"><input type="radio" name="Solution_usage" value="1"> Cloud solutions not in use</label><br>
+            <label onclick="q292()"><input type="radio" name="Solution_usage" value="2"> Initial solutions planned for cloud-based software, data storage and data analysis</label><br>
+            <label onclick="q392()"><input type="radio" name="Solution_usage" value="3"> Pilot solutions implemented in some areas of the business</label><br>
+            <label onclick="q492()"><input type="radio" name="Solution_usage" value="4"> Multiple solutions implemented across the business</label><br>
+        </fieldset>
+    </form>
+
+    <form class="form4" style="transform: translateY(40px); background-color:#045F5F ;color: beige;" id="IT">
+      <fieldset >
+          <legend>10. IT and data security</legend>
+          <label onclick="q1102()"><input type="radio" name="IT" value="1"> IT security solutions are planned</label><br>
+          <label onclick="q2102()"><input type="radio" name="IT" value="2"> IT security solutions have been partially implemented</label><br>
+          <label onclick="q3102()"><input type="radio" name="IT" value="3"> Comprehensive IT security solutions have been implemented with plans developed to close any gaps</label><br>
+          <label onclick="q4102()"><input type="radio" name="IT" value="4"> IT security solutions have been implemented for all relevant areas and are reviewed frequently to ensure compliance</label><br>
+      </fieldset>
+    </form>
+    <button id="download" type="submit" style="transform: translateY(28px) translateX(10px); position: relative; left: 20px; top: 20px; width: 30%; background-color: #064420; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;">Next</button>
+  
+  
+    <footer id="footer" style="transform: translateY(80px); width: 1480px; margin-left: 20px; margin-bottom: 90px;">
+        <div style="display: flex; justify-content: space-between; height: 40px; background-color: #bfbfbf;"><h3>MANTIX DIGITAL SOLUTIONS PVT LTD </h3>
+            <p>© Copyright 2022| Mantix Digital Solutions Pvt Ltd</p>
+        </div>
+        <p>Reg Address: #201, 2nd Floor, SJB Sai Residency, Madinaguda, Hyderabad, Telangana -500050 INDIA.</p>
+            <p style="margin-top: -15px;">Ph: +91-9573212699 | <span>Email: </span><a href="contact@matixdigital.com"> contact@matixdigital.com</a> | <span> Web: </span><a href="www.mantixdigital.com">www.mantixdigital.com</a></p>
+    </footer>
+           
+        <!-- <button id="download" type="submit" >Next</button> -->
+        </div>
+
+        <div id="f" class="flex-child" style="position: relative;">
+             
+            <div id="f1" style="position: absolute; top: 630px; width: 130px; margin-left: 380px; font-size: 19px; border: 2px solid black; text-align: center;">
+                <h>Automation</h>
+            </div>
+            
+            <div id="f2" style="position: absolute; top: 670px; width:125px; margin-left: 520px; font-size: 19px; border: 2px solid black; text-align: center;">
+                <h>Machine and</h></br>
+                <h>operation system</h></br>
+                <h>integration</h>
+            </div>
+            
+            <div id="f3" style="position: absolute; top: 815px; width:120px; margin-left: 530px; font-size: 19px; border: 2px solid black; text-align: center;">
+                <h>Equipment readiness</h></br>
+                <h>for Industry 4</h>
+            </div>
+
+            <div id="f4" style="position: absolute; top: 930px; width:120px; margin-left: 520px; font-size: 19px; border: 2px solid black; text-align: center;">
+                <h>Autonomously</h><br>
+                <h>guided workpieces</h>
+            </div>
+
+            <div id="f5" style="position: absolute; top: 1050px; width: 125px; margin-left: 380px; font-size: 19px; border: 2px solid black; text-align: center;">
+                <h>Self-optimising</h></br>
+                <h>processes</h>
+            </div>
+
+            <div id="f6" style="position: absolute; top: 1050px; width:120px; margin-left: 200px; font-size: 19px; border: 2px solid black; text-align: center;">
+                <h>Digital</h></br>
+                <h>modelling</h>
+            </div>
+
+            <div id="f7" style="position: absolute; top: 930px; width:100px; margin-left: 80px; font-size: 19px; border: 2px solid black; text-align: center;">
+                <h>Operations</h></br>
+                <h>data</h></br>
+                <h>collection</h>
+            </div>
+
+            <div id="f8" style="position: absolute; top: 830px; width:125px; margin-left: 40px; font-size: 19px; border: 2px solid black; text-align: center;">
+                <h>Operations</h></br>
+                <h>data usage</h>
+            </div>
+            
+            <div id="f9" style="position: absolute; top: 710px; width:120px; margin-left: 60px; font-size: 19px; border: 2px solid black; text-align: center;">
+                <h>Cloud</h></br>
+                <h>solution usage</h>
+            </div>
+
+            <div id="f10" style="position: absolute; top: 609px; width:120px; margin-left: 190px; font-size: 19px; border: 2px solid black; text-align: center;">
+                <h>IT and data</h><br>
+                <h>security</h>
+            </div>
+            
+
+            <div class="main_div"  style="width:70%; height:25%; margin-left: 120px;">
+                
+                <img id="img2" src="/images/Q2.png" alt="">
+                <div id="one12"></div>
+                <div id="two12"></div>
+                <div id="three12"></div>
+                <div id="four12"></div>
+
+                <div id="one22"></div>
+                <div id="two22"></div>
+                <div id="three22"></div>
+                <div id="four22"></div>
+
+                <div id="one32"></div>
+                <div id="two32"></div>
+                <div id="three32"></div>
+                <div id="four32"></div>
+
+                <div id="one42"></div>
+                <div id="two42"></div>
+                <div id="three42"></div>
+                <div id="four42"></div>
+
+                <div id="one52"></div>
+                <div id="two52"></div>
+                <div id="three52"></div>
+                <div id="four52"></div>
+
+                <div id="one62"></div>
+                <div id="two62"></div>
+                <div id="three62"></div>
+                <div id="four62"></div>
+
+                <div id="one72"></div>
+                <div id="two72"></div>
+                <div id="three72"></div>
+                <div id="four72"></div>
+
+                <div id="one82"></div>
+                <div id="two82"></div>
+                <div id="three82"></div>
+                <div id="four82"></div>
+
+                <div id="one92"></div>
+                <div id="two92"></div>
+                <div id="three92"></div>
+                <div id="four92"></div>
+
+                <div id="one102"></div>
+                <div id="two102"></div>
+                <div id="three102"></div>
+                <div id="four102"></div>
+            </div>
+
+            
+       </div>
+        </body style="background-color: #FFFFEA ;">
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</html>
+
+
+
+<script>
+function saveData2() {
+    // localStorage.clear();
+
+    if (document.querySelector('input[name="Automation"]:checked')) {
+        localStorage.setItem("Automation", document.querySelector('input[name="Automation"]:checked').value);
+    }
+
+    if (document.querySelector('input[name="M2M"]:checked')) {
+        localStorage.setItem("M2M", document.querySelector('input[name="M2M"]:checked').value);
+    }
+
+    if (document.querySelector('input[name="readiness"]:checked')) {
+        localStorage.setItem("readiness", document.querySelector('input[name="readiness"]:checked').value);
+    }
+
+    if (document.querySelector('input[name="Autonomous"]:checked')) {
+        localStorage.setItem("Autonomous", document.querySelector('input[name="Autonomous"]:checked').value);
+    }
+
+    if (document.querySelector('input[name="Self_optimising"]:checked')) {
+        localStorage.setItem("Self_optimising", document.querySelector('input[name="Self_optimising"]:checked').value);
+    }
+
+    if (document.querySelector('input[name="Modelling"]:checked')) {
+        localStorage.setItem("Modelling", document.querySelector('input[name="Modelling"]:checked').value);
+    }
+
+    if (document.querySelector('input[name="Collection"]:checked')) {
+        localStorage.setItem("Collection", document.querySelector('input[name="Collection"]:checked').value);
+    }
+
+    if (document.querySelector('input[name="Op_data_usage"]:checked')) {
+        localStorage.setItem("Op_data_usage", document.querySelector('input[name="Op_data_usage"]:checked').value);
+    }
+
+    if (document.querySelector('input[name="Solution_usage"]:checked')) {
+        localStorage.setItem("Solution_usage", document.querySelector('input[name="Solution_usage"]:checked').value);
+    }
+
+    if (document.querySelector('input[name="IT"]:checked')) {
+        localStorage.setItem("IT", document.querySelector('input[name="IT"]:checked').value);
+    }
+
+    // localStorage.setItem("Automation", document.querySelector('input[name="Automation"]:checked').value);
+    // localStorage.setItem("M2M", document.querySelector('input[name="M2M"]:checked').value);
+    // localStorage.setItem("readiness", document.querySelector('input[name="readiness"]:checked').value);
+    // localStorage.setItem("Autonomous", document.querySelector('input[name="Autonomous"]:checked').value);
+    // localStorage.setItem("Self_optimising", document.querySelector('input[name="Self_optimising"]:checked').value);
+    // localStorage.setItem("Modelling", document.querySelector('input[name="Modelling"]:checked').value);
+    // localStorage.setItem("Collection", document.querySelector('input[name="Collection"]:checked').value);
+    // localStorage.setItem("Op_data_usage", document.querySelector('input[name="Op_data_usage"]:checked').value);
+    // localStorage.setItem("Solution_usage", document.querySelector('input[name="Solution_usage"]:checked').value);
+    // localStorage.setItem("IT", document.querySelector('input[name="IT"]:checked').value);
+}
+
+</script>
+
+<script>
+    const downloadB = document.getElementById("download");
+
+    downloadB.addEventListener("click", function() {
+    // Get the element you want to screenshot
+    const element = document.getElementById("my-di");
+
+    // Use html2canvas to take a screenshot of the element
+    html2canvas(element).then(function(canvas) {
+        // Create a new link element to download the image
+        const link = document.createElement('a');
+        link.download = 'page5.png';
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+        window.location.replace('page6.html'),saveData2();
+    });
+
+    });
+
+    function q112() {
+        var one12 = document.getElementById("one12").style.backgroundColor = "red"
+        var two12 = document.getElementById("two12").style.background = "none"
+        var three12 = document.getElementById("three12").style.background = "none"
+        var four12 = document.getElementById("four12").style.background = "none"
+    }
+    function q212() {
+        var one12 = document.getElementById("one12").style.background = "none"
+        var two12 = document.getElementById("two12").style.backgroundColor = "red"
+        var three12 = document.getElementById("three12").style.background = "none"
+        var four12 = document.getElementById("four12").style.background = "none"
+    }
+    function q312() {
+        var one12 = document.getElementById("one12").style.background = "none"
+        var two12 = document.getElementById("two12").style.background = "none"
+        var three12 = document.getElementById("three12").style.backgroundColor = "red"
+        var four12 = document.getElementById("four12").style.background = "none"
+    }
+    function q412() {
+        var one12 = document.getElementById("one12").style.background = "none"
+        var two12 = document.getElementById("two12").style.background = "none"
+        var three12 = document.getElementById("three12").style.background = "none"
+        var four12 = document.getElementById("four12").style.backgroundColor = "red"
+    }
+
+    function q122() {
+        var one22 = document.getElementById("one22").style.backgroundColor = "red"
+        var two22 = document.getElementById("two22").style.background = "none"
+        var three22 = document.getElementById("three22").style.background = "none"
+        var four22 = document.getElementById("four22").style.background = "none"
+    }
+    function q222() {
+        var one22 = document.getElementById("one22").style.background = "none"
+        var two22 = document.getElementById("two22").style.backgroundColor = "red"
+        var three22 = document.getElementById("three22").style.background = "none"
+        var four22 = document.getElementById("four22").style.background = "none"
+    }
+    function q322() {
+        var one22 = document.getElementById("one22").style.background = "none"
+        var two22 = document.getElementById("two22").style.background = "none"
+        var three22 = document.getElementById("three22").style.backgroundColor = "red"
+        var four22 = document.getElementById("four22").style.background = "none"
+    }
+    function q422() {
+        var one22 = document.getElementById("one22").style.background = "none"
+        var two22 = document.getElementById("two22").style.background = "none"
+        var three22 = document.getElementById("three22").style.background = "none"
+        var four22 = document.getElementById("four22").style.backgroundColor = "red"
+    }
+
+    function q132() {
+        var one32 = document.getElementById("one32").style.backgroundColor = "red"
+        var two32 = document.getElementById("two32").style.background = "none"
+        var three32 = document.getElementById("three32").style.background = "none"
+        var four32 = document.getElementById("four32").style.background = "none"
+    }
+    function q232() {
+        var one32 = document.getElementById("one32").style.background = "none"
+        var two32 = document.getElementById("two32").style.backgroundColor = "red"
+        var three32 = document.getElementById("three32").style.background = "none"
+        var four32 = document.getElementById("four32").style.background = "none"
+    }
+    function q332() {
+        var one32 = document.getElementById("one32").style.background = "none"
+        var two32 = document.getElementById("two32").style.background = "none"
+        var three32 = document.getElementById("three32").style.backgroundColor = "red"
+        var four32 = document.getElementById("four32").style.background = "none"
+    }
+    function q432() {
+        var one32 = document.getElementById("one32").style.background = "none"
+        var two32 = document.getElementById("two32").style.background = "none"
+        var three32 = document.getElementById("three32").style.background = "none"
+        var four32 = document.getElementById("four32").style.backgroundColor = "red"
+    }
+
+    function q142() {
+        var one42 = document.getElementById("one42").style.backgroundColor = "red"
+        var two42 = document.getElementById("two42").style.background = "none"
+        var three42 = document.getElementById("three42").style.background = "none"
+        var four42 = document.getElementById("four42").style.background = "none"
+    }
+    function q242() {
+        var one42 = document.getElementById("one42").style.background = "none"
+        var two42 = document.getElementById("two42").style.backgroundColor = "red"
+        var three42 = document.getElementById("three42").style.background = "none"
+        var four42 = document.getElementById("four42").style.background = "none"
+    }
+    function q342() {
+        var one42 = document.getElementById("one42").style.background = "none"
+        var two42 = document.getElementById("two42").style.background = "none"
+        var three42 = document.getElementById("three42").style.backgroundColor = "red"
+        var four42 = document.getElementById("four42").style.background = "none"
+    }
+    function q442() {
+        var one42 = document.getElementById("one42").style.background = "none"
+        var two42 = document.getElementById("two42").style.background = "none"
+        var three42 = document.getElementById("three42").style.background = "none"
+        var four42 = document.getElementById("four42").style.backgroundColor = "red"
+    }
+
+    function q152() {
+        var one52 = document.getElementById("one52").style.backgroundColor = "red"
+        var two52 = document.getElementById("two52").style.background = "none"
+        var three52 = document.getElementById("three52").style.background = "none"
+        var four52 = document.getElementById("four52").style.background = "none"
+    }
+    function q252() {
+        var one52 = document.getElementById("one52").style.background = "none"
+        var two52 = document.getElementById("two52").style.backgroundColor = "red"
+        var three52 = document.getElementById("three52").style.background = "none"
+        var four52 = document.getElementById("four52").style.background = "none"
+    }
+    function q352() {
+        var one52 = document.getElementById("one52").style.background = "none"
+        var two52 = document.getElementById("two52").style.background = "none"
+        var three52 = document.getElementById("three52").style.backgroundColor = "red"
+        var four52 = document.getElementById("four52").style.background = "none"
+    }
+    function q452() {
+        var one52 = document.getElementById("one52").style.background = "none"
+        var two52 = document.getElementById("two52").style.background = "none"
+        var three52 = document.getElementById("three52").style.background = "none"
+        var four52 = document.getElementById("four52").style.backgroundColor = "red"
+    }
+
+    function q162() {
+        var one62 = document.getElementById("one62").style.backgroundColor = "red"
+        var two62 = document.getElementById("two62").style.background = "none"
+        var three62 = document.getElementById("three62").style.background = "none"
+        var four62 = document.getElementById("four62").style.background = "none"
+    }
+    function q262() {
+        var one62 = document.getElementById("one62").style.background = "none"
+        var two62 = document.getElementById("two62").style.backgroundColor = "red"
+        var three62 = document.getElementById("three62").style.background = "none"
+        var four62 = document.getElementById("four62").style.background = "none"
+    }
+    function q362() {
+        var one62 = document.getElementById("one62").style.background = "none"
+        var two62 = document.getElementById("two62").style.background = "none"
+        var three62 = document.getElementById("three62").style.backgroundColor = "red"
+        var four62 = document.getElementById("four62").style.background = "none"
+    }
+    function q462() {
+        var one62 = document.getElementById("one62").style.background = "none"
+        var two62 = document.getElementById("two62").style.background = "none"
+        var three62 = document.getElementById("three62").style.background = "none"
+        var four62 = document.getElementById("four62").style.backgroundColor = "red"
+    }
+
+    function q172() {
+        var one72 = document.getElementById("one72").style.backgroundColor = "red"
+        var two72 = document.getElementById("two72").style.background = "none"
+        var three72 = document.getElementById("three72").style.background = "none"
+        var four72 = document.getElementById("four72").style.background = "none"
+    }
+    function q272() {
+        var one72 = document.getElementById("one72").style.background = "none"
+        var two72 = document.getElementById("two72").style.backgroundColor = "red"
+        var three72 = document.getElementById("three72").style.background = "none"
+        var four72 = document.getElementById("four72").style.background = "none"
+    }
+    function q372() {
+        var one72 = document.getElementById("one72").style.background = "none"
+        var two72 = document.getElementById("two72").style.background = "none"
+        var three72 = document.getElementById("three72").style.backgroundColor = "red"
+        var four72 = document.getElementById("four72").style.background = "none"
+    }
+    function q472() {
+        var one72 = document.getElementById("one72").style.background = "none"
+        var two72 = document.getElementById("two72").style.background = "none"
+        var three72 = document.getElementById("three72").style.background = "none"
+        var four72 = document.getElementById("four72").style.backgroundColor = "red"
+    }
+
+    function q182() {
+        var one82 = document.getElementById("one82").style.backgroundColor = "red"
+        var two82 = document.getElementById("two82").style.background = "none"
+        var three82 = document.getElementById("three82").style.background = "none"
+        var four82 = document.getElementById("four82").style.background = "none"
+    }
+    function q282() {
+        var one82 = document.getElementById("one82").style.background = "none"
+        var two82 = document.getElementById("two82").style.backgroundColor = "red"
+        var three82 = document.getElementById("three82").style.background = "none"
+        var four82 = document.getElementById("four82").style.background = "none"
+    }
+    function q382() {
+        var one82 = document.getElementById("one82").style.background = "none"
+        var two82 = document.getElementById("two82").style.background = "none"
+        var three82 = document.getElementById("three82").style.backgroundColor = "red"
+        var four82 = document.getElementById("four82").style.background = "none"
+    }
+    function q482() {
+        var one82 = document.getElementById("one82").style.background = "none"
+        var two82 = document.getElementById("two82").style.background = "none"
+        var three82 = document.getElementById("three82").style.background = "none"
+        var four82 = document.getElementById("four82").style.backgroundColor = "red"
+    }
+
+    function q192() {
+        var one92 = document.getElementById("one92").style.backgroundColor = "red"
+        var two92 = document.getElementById("two92").style.background = "none"
+        var three92 = document.getElementById("three92").style.background = "none"
+        var four92 = document.getElementById("four92").style.background = "none"
+    }
+    function q292() {
+        var one92 = document.getElementById("one92").style.background = "none"
+        var two92 = document.getElementById("two92").style.backgroundColor = "red"
+        var three92 = document.getElementById("three92").style.background = "none"
+        var four92 = document.getElementById("four92").style.background = "none"
+    }
+    function q392() {
+        var one92 = document.getElementById("one92").style.background = "none"
+        var two92 = document.getElementById("two92").style.background = "none"
+        var three92 = document.getElementById("three92").style.backgroundColor = "red"
+        var four92 = document.getElementById("four92").style.background = "none"
+    }
+    function q492() {
+        var one92 = document.getElementById("one92").style.background = "none"
+        var two92 = document.getElementById("two92").style.background = "none"
+        var three92 = document.getElementById("three92").style.background = "none"
+        var four92 = document.getElementById("four92").style.backgroundColor = "red"
+    }
+
+    function q1102() {
+        var one102 = document.getElementById("one102").style.backgroundColor = "red"
+        var two102 = document.getElementById("two102").style.background = "none"
+        var three102 = document.getElementById("three102").style.background = "none"
+        var four102 = document.getElementById("four102").style.background = "none"
+    }
+    function q2102() {
+        var one102 = document.getElementById("one102").style.background = "none"
+        var two102 = document.getElementById("two102").style.backgroundColor = "red"
+        var three102 = document.getElementById("three102").style.background = "none"
+        var four102 = document.getElementById("four102").style.background = "none"
+    }
+    function q3102() {
+        var one102 = document.getElementById("one102").style.background = "none"
+        var two102 = document.getElementById("two102").style.background = "none"
+        var three102 = document.getElementById("three102").style.backgroundColor = "red"
+        var four102 = document.getElementById("four102").style.background = "none"
+    }
+    function q4102() {
+        var one102 = document.getElementById("one102").style.background = "none"
+        var two102 = document.getElementById("two102").style.background = "none"
+        var three102 = document.getElementById("three102").style.background = "none"
+        var four102 = document.getElementById("four102").style.backgroundColor = "red"
+    }
+</script>
+
+
