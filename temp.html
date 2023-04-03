@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/form.css">
+    <!-- <script type="text/javascript" src="storage.js"></script> -->
+
+
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("t4RCLZPccTHkpj4CJ");
+    })();
+    </script>
+
+
+    <style>
+        .main_div{
+            /* border: 1px solid yellow; */
+            transform: translateY(-200px);
+
+        }
+        /* input :required  */
+        #one16 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-244px);
+            margin-left: 221px;
+        }
+        #two16 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-288px);
+            margin-left: 220px;
+        }
+        #three16 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-330px);
+            margin-left: 220px;
+        }
+        #four16 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-375px);
+            margin-left: 219px;
+        }
+
+        #one26 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-235px);
+            margin-left: 272px;
+        }
+        #two26 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-244px);
+            margin-left: 310px;
+        }
+        #three26 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-253px);
+            margin-left: 340px;
+        }
+        #four26 {
+            /* border: 1px solid red; */
+            /* background-color: aquamarine; */
+            width: 10px;
+            height: 10px;
+            border-radius: 30px;
+            transform: translateY(-264px);
+            margin-left: 368px;
+        }
+    </style> 
+</head>
+
+<body style="background-color: #FFFFEA ;">
+
+       <div id="my-di" class="flex-container" >
+        
+        <div style="display:inline-block;width:49%"class="flex-child">
+            
+            <div id="h" style="transform: translateY(40px); background-color:#045F5F ; width: 692px;margin-left: 26px;">
+                <h2 style="display:inline-block;width:auto;margin-left: 200px;font-size: 32px;font-style: oblique;font: bolder;color: beige;">Legal Considerations</h2>
+            </div>
+            <form class="form4" style="transform: translateY(40px); background-color:#045F5F ;color: beige;" id="Contracting_models">
+                <fieldset>
+                    <legend>1. Contracting models</legend>
+                    <label onclick="q116()"><input type="radio" name="Contracting_models" value="1" required> Contracting processes are linear and unchanged</label><br>
+                    <label onclick="q216()"><input type="radio" name="Contracting_models" value="2" required> Some changes to contracting processes to reflect operational changes</label><br>
+                    <label onclick="q316()"><input type="radio" name="Contracting_models" value="3" required> Some 'flagship' projects utilise new contracting models but it is not standard across the board</label><br>
+                    <label onclick="q416()"><input type="radio" name="Contracting_models" value="4" required> All contracting is behavioural and incentivises all parties to achieve the best result</label><br>
+                </fieldset>
+                
+            </form>
+            
+            <form class="form4" style="transform: translateY(40px); background-color:#045F5F ;color: beige;" id="Risk">
+                <fieldset >
+                    <legend>2. Risk</legend>
+                    <label onclick="q126()"><input type="radio" name="Risk" value="1" required> New risks not identified or assessed</label><br>
+                    <label onclick="q226()"><input type="radio" name="Risk" value="2" required> New risks identified and/or assessed but no mitigations planned</label><br>
+                    <label onclick="q326()"><input type="radio" name="Risk" value="3" required> New risks identified and assessed, and limited mitigations put in place</label><br>
+                    <label onclick="q426()"><input type="radio" name="Risk" value="4" required> Working party has assessed the changing risk profile and has procedures in place to mitigate these</label><br>
+                </fieldset>
+                
+            </form>
+            
+            
+
+            
+            <button id="download" type="submit" onclick="return confirm('Are you sure?')" style="transform: translateY(40px) translateX(10px); position: relative; left: 15px; top: 15px; width: 30%; background-color: #064420; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;;">Next</button>
+
+            
+
+        </div>
+
+        <div id="f" class="flex-child">
+             
+            <div id="f1" style="position: relative; top: 400px; width: 120px; margin-left: 285px; font-size: 19px; border: 2px solid black; text-align: center;">
+                <h>Contracting</h></br>
+                <h>models</h>
+            </div>
+            
+            <div id="f2" style="position: relative; top: 552px; width:80px; margin-left: 510px; font-size: 19px; border: 2px solid black; text-align: center;">
+                <h>Risk</h>
+            </div>
+            
+            
+
+            
+            <div class="main_div"  style="width:80%; height:40%; margin-left: 120px;">
+                
+                <img id="img6" src="/images/Q6.PNG" alt="">
+                <div id="one16"></div>
+                <div id="two16"></div>
+                <div id="three16"></div>
+                <div id="four16"></div>
+
+                <div id="one26"></div>
+                <div id="two26"></div>
+                <div id="three26"></div>
+                <div id="four26"></div>
+
+            </div>
+       </div>
+    
+
+     
+</body style="background-color: #FFFFEA ;">
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+</html>
+<script>
+
+
+function openPopup() {
+  var popup = window.open("", "Popup", "width=400,height=300");
+  popup.document.write("<form>");
+  popup.document.write("<label for='username'>Username:</label>");
+  popup.document.write("<input type='text' id='username' name='username'><br><br>");
+  popup.document.write("<label for='phone'>Phone number:</label>");
+  popup.document.write("<input type='text' id='phone' name='phone'><br><br>");
+  popup.document.write("<button type='button' onclick='sendDetails()'>Submit</button>");
+  popup.document.write("</form>");
+}
+
+function sendDetails() {
+  var username = window.opener.document.getElementById("username").value;
+  var phone = window.opener.document.getElementById("phone").value;
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "send_email.php", true);
+  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  xhr.onreadystatechange = function() {
+    if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+      window.close();
+      alert("Details sent successfully!");
+    }
+  };
+  xhr.send("username=" + username + "&phone=" + phone);
+}
+
+
+function saveData6() {
+    // localStorage.clear();
+
+    const contractingModels = document.querySelector('input[name="Contracting_models"]:checked');
+    if (contractingModels) {
+        localStorage.setItem("Contracting_models", contractingModels.value);
+    }
+
+    const risk = document.querySelector('input[name="Risk"]:checked');
+    if (risk) {
+        localStorage.setItem("Risk", risk.value);
+    }
+
+}
+</script>
+
+<script>
+
+    var download = document.getElementById("download");
+    download.addEventListener("click", function(event) {
+    event.preventDefault();
+    sendEmail();
+    // Navigate to the next page or perform other actions as necessary
+    });
+
+    function sendEmail() {
+    // Retrieve the values of the form fields
+    var contractingModel = document.querySelector('input[name="Contracting_models"]:checked').value;
+    var risk = document.querySelector('input[name="Risk"]:checked').value;
+    // Other form fields can be retrieved in a similar manner
+
+    // Use the emailJS API to send the email
+    var templateParams = {
+        contractingModel: contractingModel,
+        risk: risk,
+        // Other form fields can be added to the templateParams object
+    };
+    
+    emailjs.send("service_p5r3orl", "template_bgj5iyp", templateParams)
+        .then(function(response) {
+        console.log("SUCCESS", response);
+        }, function(error) {
+        console.log("FAILED", error);
+        });
+    }
+
+    
+
+
+    // const downloadB = document.getElementById("download");
+
+    // downloadB.addEventListener("click", function() {
+    // Get the element you want to screenshot
+    // const element = document.getElementById('my-di');
+    // html2canvas(element).then(function(canvas) {
+    //     const link = document.createElement('a');
+    //     link.download = 'page9.png';
+    //     const binaryData = atob(canvas.toDataURL("image/png").split(',')[1]);
+    //     const arrayBuffer = new ArrayBuffer(binaryData.length);
+    //     const uint8Array = new Uint8Array(arrayBuffer);
+    //     for (let i = 0; i < binaryData.length; i++) {
+    //         uint8Array[i] = binaryData.charCodeAt(i);
+    //     }
+    //     const file = new File([arrayBuffer], 'page9.png', { type: 'image/png' });
+    //     file.webkitRelativePath = './files/page9.png';
+    //     link.href = URL.createObjectURL(file);
+    //     link.click();
+    //     window.location.replace('page10.html');
+    //     // window.location.replace('user_details.html');
+
+    //     saveData6();
+    //     });
+    // });
+
+    function q116() {
+        var one16 = document.getElementById("one16").style.backgroundColor = "red"
+        var two16 = document.getElementById("two16").style.background = "none"
+        var three16 = document.getElementById("three16").style.background = "none"
+        var four16 = document.getElementById("four16").style.background = "none"
+    }
+    function q216() {
+        var one16 = document.getElementById("one16").style.background = "none"
+        var two16 = document.getElementById("two16").style.backgroundColor = "red"
+        var three16 = document.getElementById("three16").style.background = "none"
+        var four16 = document.getElementById("four16").style.background = "none"
+    }
+    function q316() {
+        var one16 = document.getElementById("one16").style.background = "none"
+        var two16 = document.getElementById("two16").style.background = "none"
+        var three16 = document.getElementById("three16").style.backgroundColor = "red"
+        var four16 = document.getElementById("four16").style.background = "none"
+    }
+    function q416() {
+        var one16 = document.getElementById("one16").style.background = "none"
+        var two16 = document.getElementById("two16").style.background = "none"
+        var three16 = document.getElementById("three16").style.background = "none"
+        var four16 = document.getElementById("four16").style.backgroundColor = "red"
+    }
+
+    function q126() {
+        var one26 = document.getElementById("one26").style.backgroundColor = "red"
+        var two26 = document.getElementById("two26").style.background = "none"
+        var three26 = document.getElementById("three26").style.background = "none"
+        var four26 = document.getElementById("four26").style.background = "none"
+    }
+    function q226() {
+        var one26 = document.getElementById("one26").style.background = "none"
+        var two26 = document.getElementById("two26").style.backgroundColor = "red"
+        var three26 = document.getElementById("three26").style.background = "none"
+        var four26 = document.getElementById("four26").style.background = "none"
+    }
+    function q326() {
+        var one26 = document.getElementById("one26").style.background = "none"
+        var two26 = document.getElementById("two26").style.background = "none"
+        var three26 = document.getElementById("three26").style.backgroundColor = "red"
+        var four26 = document.getElementById("four26").style.background = "none"
+    }
+    function q426() {
+        var one26 = document.getElementById("one26").style.background = "none"
+        var two26 = document.getElementById("two26").style.background = "none"
+        var three26 = document.getElementById("three26").style.background = "none"
+        var four26 = document.getElementById("four26").style.backgroundColor = "red"
+    }
+
+</script>
+
