@@ -4,10 +4,10 @@ const app = express();
 app.use(express.static('public'));
 // app.use('/static')
 // create an array of page names
-const pages = ['page1', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9','page10','page11'];
+const pages = ['index', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9','page10','page11'];
 
 app.get(`/`, (req, res) => {
-    res.sendFile(`${__dirname}/page1.html`);
+    res.sendFile(`${__dirname}/index.html`);
   });
 
 // register a route for each page
